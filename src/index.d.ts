@@ -400,7 +400,7 @@ declare module "redux-persist/es/stateReconciler/hardSet" {
 
 declare module "redux-persist/es/storage" {
     import { WebStorage } from "redux-persist";
-    export let storage: WebStorage;
+    let storage: WebStorage;
     export default storage;
 }
 
